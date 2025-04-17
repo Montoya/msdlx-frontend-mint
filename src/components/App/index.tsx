@@ -72,6 +72,7 @@ const App = () => {
             return;
           case 'Cancelled':
             setStatus({ state: State.failed, message: 'Purchase failed' });
+            console.log(task);
             return;
           default:
             await new Promise(r => setTimeout(r, 1_000));
@@ -109,10 +110,10 @@ const App = () => {
           false
         );
 
-        const doubleFee:BigInt = BigInt(fee.toBigInt()) + BigInt(fee.toBigInt()); 
+        const biggerFee:BigInt = BigInt(fee.toBigInt()) + BigInt(fee.toBigInt()); 
 
-        setFee(doubleFee as bigint);
-        setTimeout(updateFee, 10_000);
+        setFee(biggerFee as bigint);
+        setTimeout(updateFee, 1_000);
       };
 
       updateFee();
