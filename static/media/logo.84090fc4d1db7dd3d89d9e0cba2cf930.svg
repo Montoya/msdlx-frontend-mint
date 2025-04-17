@@ -1,0 +1,33 @@
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <style>
+    .emoji{text-anchor:middle;dominant-baseline:middle;font-size:248px;font-family:Tahoma,sans-serif}
+    .emoj{font-size:96px}
+    .txt{text-anchor:middle;dominant-baseline:middle;font-size:104px;fill:#000}
+    .title{font-family:Tahoma,sans-serif}
+  </style>
+  <!-- Background -->
+  <rect width="600" height="600" fill="#C0C0C0"/>
+  <!-- Window outer border -->
+  <rect x="50" y="50" width="500" height="500" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <!-- Title bar -->
+  <rect x="50" y="50" width="500" height="30" fill="#000080" stroke="#000000" stroke-width="2"/>
+  <!-- Title text -->
+  <text x="300" y="68" class="title" font-size="16" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
+    Minesweeper
+  </text>
+  <!-- Inner beveled frame -->
+  <rect x="52" y="82" width="496" height="466" fill="#e0e0e0" stroke="#808080" stroke-width="1"/>
+
+  <!-- Embedded Minesweeper SVG, centered -->
+  <g transform="translate(100,120),scale(0.6,0.6)" fill="#fff">
+
+      <text class="emoji" x="200" y="182">💣</text>
+      <text fill="#000" class="emoji" x="560" y="182">1</text>
+      <text class="emoji" x="200" y="528" fill="#000">3</text>
+      <text class="emoji" x="560" y="528" fill="#000">1</text>
+      <path d="m189 205 22 8 144 144 6 22h-64v20l10 6 16 32v32h-32l-32-64h-16l-32 32-21 5z"/>
+      <path d="M355 357h16v32h-64v16h-16v-32h64zm0 0v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-32-16h16v-16h-16v-16h-16v272h32v-16h-16zm48 176v16h16v-16zm-16 32h16v-16h-16zm-16 16h16v-16h-16zm48-32v32h16v-32zm16 32v32h16v-32zm64 32v-32h-16v32zm-16-32v-32h-16v32zm-32 48h32v-16h-32z" fill="#000"/>
+      <text class="emoj" x="308" y="250">😭</text>
+      <text class="emoj" x="20" y="396">😵</text>
+  </g>
+</svg>

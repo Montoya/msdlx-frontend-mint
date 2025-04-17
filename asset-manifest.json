@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/msdlx-frontend-mint/static/css/main.dbc454c4.css",
-    "main.js": "/msdlx-frontend-mint/static/js/main.b214afcc.js",
+    "main.css": "/msdlx-frontend-mint/static/css/main.695d8f7f.css",
+    "main.js": "/msdlx-frontend-mint/static/js/main.932605a1.js",
     "static/media/flagship.svg": "/msdlx-frontend-mint/static/media/flagship.bf72a1097c327741ef68fb745a6d30b9.svg",
-    "static/media/logo.svg": "/msdlx-frontend-mint/static/media/logo.222ce931844b657d05e2ba71c42eed51.svg",
+    "static/media/logo.svg": "/msdlx-frontend-mint/static/media/logo.84090fc4d1db7dd3d89d9e0cba2cf930.svg",
     "static/media/cross.svg": "/msdlx-frontend-mint/static/media/cross.0293a94a89e82f2a65f7f152e4e47f4f.svg",
     "static/media/check.svg": "/msdlx-frontend-mint/static/media/check.0592d57a49109752ba5264f812de354d.svg",
     "index.html": "/msdlx-frontend-mint/index.html",
     "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "/msdlx-frontend-mint/static/media/.1feff74faaf0efc6a044",
-    "main.dbc454c4.css.map": "/msdlx-frontend-mint/static/css/main.dbc454c4.css.map",
-    "main.b214afcc.js.map": "/msdlx-frontend-mint/static/js/main.b214afcc.js.map"
+    "main.695d8f7f.css.map": "/msdlx-frontend-mint/static/css/main.695d8f7f.css.map",
+    "main.932605a1.js.map": "/msdlx-frontend-mint/static/js/main.932605a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbc454c4.css",
-    "static/js/main.b214afcc.js"
+    "static/css/main.695d8f7f.css",
+    "static/js/main.932605a1.js"
   ]
 }
