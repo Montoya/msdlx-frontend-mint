@@ -109,9 +109,9 @@ const App = () => {
           false
         );
 
-        // const doubleFee:BigInt = BigInt(fee.toBigInt()) + BigInt(fee.toBigInt()); 
+        const doubleFee:BigInt = BigInt(fee.toBigInt()) + BigInt(fee.toBigInt()); 
 
-        setFee(fee.toBigInt());
+        setFee(doubleFee as bigint);
         setTimeout(updateFee, 10_000);
       };
 
