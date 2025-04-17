@@ -43,9 +43,7 @@ const App = () => {
       const { chainId } = await provider.getNetwork();
       const deadline = Math.floor(Date.now() / 1000) + 60 * 5;
 
-      const sigAmount = amount+BigInt(100000); 
-
-      const sig = await sign(signer, token!, sigAmount, nft!, deadline, chainId);
+      const sig = await sign(signer, token!, amount, nft!, deadline, chainId);
 
       if (!sig)
         return setStatus({ state: State.failed, message: 'Signature denied' });
