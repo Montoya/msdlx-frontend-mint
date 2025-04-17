@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400"><defs><style>.cls-1{opacity:0;}.cls-2{fill:url(#radial-gradient);}.cls-3{opacity:0.7;isolation:isolate;fill:url(#linear-gradient);}.cls-4{fill:url(#linear-gradient-2);}</style><radialGradient id="radial-gradient" cx="-1713.42" cy="-1123.38" r="1.99" gradientTransform="matrix(-144.9, 32.65, 39.12, 173.61, -204076.26, 251069.88)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.12" stop-color="#fff" stop-opacity="0.95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="linear-gradient" x1="200.8" y1="-3207.07" x2="200.8" y2="-3373.9" gradientTransform="matrix(1, 0, 0, -1, 0, -3040.56)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0.5"/></linearGradient><linearGradient id="linear-gradient-2" x1="240.48" y1="-3202.99" x2="240.48" y2="-3445.14" gradientTransform="matrix(1, 0, 0, -1, 0, -3040.56)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs><title>Asset 46</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" width="400" height="400"/><path class="cls-2" d="M273.83,144.32a6.25,6.25,0,0,1-7.12,6,120,120,0,0,0-25.34-.07c-17,1.77-31.2,7-44.25,11.87h0l-2.36.87c-13.86,5.12-26.64,9.53-41.79,9.88A89,89,0,0,1,133.21,171a15.53,15.53,0,0,1-12.29-12.08,78.05,78.05,0,0,1-1.47-15.08,77.19,77.19,0,0,1,154.38,0Z"/><path class="cls-3" d="M126.32,182.68c-5.8-1.39-11.09,4.83-8.23,10.07l75.77,138.91a3.21,3.21,0,0,0,5.64,0l83.63-153.32a9.11,9.11,0,0,0-6-13.46,113.41,113.41,0,0,0-34.5-1.89c-15.37,1.61-28.14,6.34-41.4,11.25l-2.11.78c-13.88,5.13-28.44,10.27-45.95,10.67A104,104,0,0,1,126.32,182.68Z"/><path class="cls-4" d="M196.64,178.63a3.86,3.86,0,0,1,2.52-3.61l2.11-.78c13.26-4.91,26-9.64,41.4-11.25a113.41,113.41,0,0,1,34.5,1.89,9.11,9.11,0,0,1,6,13.46L199.5,331.66a3.16,3.16,0,0,1-2.86,1.67Z"/></g></g></svg>
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <style>
+    .emoji{text-anchor:middle;dominant-baseline:middle;font-size:248px;font-family:Tahoma,sans-serif}
+    .emoj{font-size:96px}
+    .txt{text-anchor:middle;dominant-baseline:middle;font-size:104px;fill:#000}
+    .title{font-family:Tahoma,sans-serif}
+  </style>
+  <!-- Background -->
+  <rect width="600" height="600" fill="#C0C0C0"/>
+  <!-- Window outer border -->
+  <rect x="50" y="50" width="500" height="500" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <!-- Title bar -->
+  <rect x="50" y="50" width="500" height="30" fill="#000080" stroke="#000000" stroke-width="2"/>
+  <!-- Title text -->
+  <text x="300" y="68" class="title" font-size="16" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
+    Minesweeper
+  </text>
+  <!-- Inner beveled frame -->
+  <rect x="52" y="82" width="496" height="466" fill="#e0e0e0" stroke="#808080" stroke-width="1"/>
+
+  <!-- Embedded Minesweeper SVG, centered -->
+  <g transform="translate(100,120),scale(0.6,0.6)" fill="#fff">
+
+      <text class="emoji" x="200" y="182">💣</text>
+      <text fill="#000" class="emoji" x="560" y="182">1</text>
+      <text class="emoji" x="200" y="528" fill="#000">3</text>
+      <text class="emoji" x="560" y="528" fill="#000">1</text>
+      <path d="m189 205 22 8 144 144 6 22h-64v20l10 6 16 32v32h-32l-32-64h-16l-32 32-21 5z"/>
+      <path d="M355 357h16v32h-64v16h-16v-32h64zm0 0v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-16-16v-16h-16v16zm-32-16h16v-16h-16v-16h-16v272h32v-16h-16zm48 176v16h16v-16zm-16 32h16v-16h-16zm-16 16h16v-16h-16zm48-32v32h16v-32zm16 32v32h16v-32zm64 32v-32h-16v32zm-16-32v-32h-16v32zm-32 48h32v-16h-32z" fill="#000"/>
+      <text class="emoj" x="308" y="250">😭</text>
+      <text class="emoj" x="20" y="396">😵</text>
+  </g>
+</svg>
