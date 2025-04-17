@@ -2,7 +2,7 @@
   "name": "frontend",
   "homepage": "https://montoya.github.io/msdlx-frontend-mint",
   "dependencies": {
-    "@gelatonetwork/relay-sdk": "^4.0.0",
+    "@gelatonetwork/relay-sdk": "3.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
