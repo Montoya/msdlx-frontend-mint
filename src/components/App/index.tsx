@@ -56,9 +56,9 @@ const App = () => {
       const request: CallWithSyncFeeRequest = {
         chainId: chainId.toString(),
         target: nft!.target.toString(),
+        data: data,
         feeToken: token!.target.toString(),
-        isRelayContext: true,
-        data: data
+        isRelayContext: true
       };
 
       const { taskId } = await relay.callWithSyncFee(request);
@@ -72,7 +72,6 @@ const App = () => {
             return;
           case 'Cancelled':
             setStatus({ state: State.failed, message: 'Purchase failed' });
-            console.log(task); 
             return;
           default:
             await new Promise(r => setTimeout(r, 1_000));
@@ -85,7 +84,6 @@ const App = () => {
     }
     catch (e) {
       setStatus({ state: State.failed, message: 'Wallet connection denied' });
-      console.log(e); 
     }
   };
 
@@ -110,6 +108,8 @@ const App = () => {
           600_000n as any,
           false
         );
+
+        // const doubleFee:BigInt = BigInt(fee.toBigInt()) + BigInt(fee.toBigInt()); 
 
         setFee(fee.toBigInt());
         setTimeout(updateFee, 10_000);

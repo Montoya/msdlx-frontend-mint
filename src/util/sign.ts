@@ -1,14 +1,23 @@
 import { ethers } from 'ethers';
 
 const sign = async (signer: ethers.JsonRpcSigner, token: ethers.Contract, value: bigint, spender: ethers.Contract, deadline: number, chainId: bigint): Promise<ethers.Signature | null> => {
+/*
+  This signature body from the example was wrong! The correct signature body is below this one.
   const salt = ethers.solidityPacked(['uint256'], [chainId]);
-
   const domain: ethers.TypedDataDomain = {
     name: await token.name(),
     version: '1',
     salt: salt,
     verifyingContract: token.target.toString()
   };
+*/
+
+const domain: ethers.TypedDataDomain = {
+  name: await token.name(),
+  verifyingContract: token.target.toString(),
+  chainId: chainId,
+  version: '2'
+};
 
   const types = {
     Permit: [
@@ -30,7 +39,6 @@ const sign = async (signer: ethers.JsonRpcSigner, token: ethers.Contract, value:
 
   try {
     const sig = await signer.signTypedData(domain, types, data);
-    console.log(sig); 
     return ethers.Signature.from(sig);
   }
   catch (e) {
